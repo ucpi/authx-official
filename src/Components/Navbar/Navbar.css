@@ -1,24 +1,28 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5rem 15rem 0 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 15rem 0 25rem;
 }
 
 h1 {
-    font-size: 4rem;
-    color: #fff;
-    font-weight: 400;
-    cursor: pointer;
+  font-size: 5rem;
+  color: #00abb3;
+  /* font-weight: 400; */
+  cursor: pointer;
+}
+
+.links {
+    padding-right: 10rem;
 }
 
 a {
-    font-size: 2.5rem;
-    color: #B2B2B2;
-    padding: 0 4rem;
-    transition: all .5s;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 0 4rem;
+  transition: all 0.5s;
 }
 
 a:hover {
-    color: #fff;
+  color: #00abb3;
 }
