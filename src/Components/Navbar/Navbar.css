@@ -13,10 +13,21 @@ h1 {
 }
 
 a {
-  font-size: 2.5rem;
-  color: #fff;
+  font-size: 2rem;
   padding: 0 4rem;
   transition: all 0.5s;
+  color: #13fee2;
+}
+
+i {
+  border-radius: 50%;
+  padding: 1rem;
+  transition: all .3s;
+}
+
+i:hover {
+  background-color: #13fee2;
+  color: #3c4048;
 }
 
 a:hover {

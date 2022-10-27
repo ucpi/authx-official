@@ -30,7 +30,7 @@
   font-size: 4rem;
   letter-spacing: -0.5rem;
   font-weight: 300;
-  color: #00abb3;
+  color: #13fee2;
 }
 
 .section-2 .text p {
@@ -45,10 +45,11 @@
     margin: 2rem 0;
   }
 
-  .section-2 .step-1, .section-2 .step-3, .section-2 .step-5 {
+  .section-2 .step-1,
+  .section-2 .step-3,
+  .section-2 .step-5 {
     flex-direction: column-reverse;
   }
-
 }
 
 @media (max-width: 500px) {
