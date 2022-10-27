@@ -19,11 +19,11 @@ a {
 }
 
 i {
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 50%;
   background-color: #13fee2;
   color: #3c4048;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 i:hover {
