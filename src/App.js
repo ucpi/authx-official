@@ -1,16 +1,25 @@
-import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
-import Section1 from "./Components/Section1/Section1";
-import Section2 from "./Components/Section2/Section2";
+import { useEffect } from "react";
+import {
+  BrowserRouter,
+  Route,
+  Router,
+  Routes,
+  useParams,
+} from "react-router-dom";
+import Main from "./main";
+import Machine from "./Machine";
 
-function App() {
+const App = () => {
+  useEffect(() => {});
   return (
-    <div className="App">
-      <Navbar />
-      <Section1 />
-      <Section2 />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/authx/:sc_address" element={<Machine />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
-}
-
+};
 export default App;
